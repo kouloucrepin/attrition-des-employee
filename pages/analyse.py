@@ -8,7 +8,7 @@ import os
 st.set_page_config(layout="wide")
 
 st.sidebar.image('images/sidebar.png')
-data = pd.read_csv( os.path.join(os.getcwd(), 'data', 'ml.csv'))
+data = pd.read_csv( os.path.join(os.getcwd(), 'data', 'ml.csv'),sep=';')
 data.colums=data.columns.str.strip()
 data['DistanceFromHome'] = data['DistanceFromHome'].fillna(np.median(data['DistanceFromHome'].dropna()))
 Education_codes = {1: 'inférieur au collège', 2: 'collège', 3: 'licence', 4: 'master', 5: 'docteur'}
