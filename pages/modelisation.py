@@ -17,8 +17,8 @@ from sklearn.metrics import roc_auc_score,roc_curve,RocCurveDisplay,confusion_ma
 import os
 import plotly.figure_factory as ff
 from sklearn.pipeline import Pipeline
-st.sidebar.image('images/sidebar.png')
 st.set_page_config(layout="wide")
+st.sidebar.image('images/sidebar.png')
 data = pd.read_csv( os.path.join(os.getcwd(), 'data', 'ml.csv'),sep=';')
 categorial_var = [
     'Education','EnvironmentSatisfaction',
