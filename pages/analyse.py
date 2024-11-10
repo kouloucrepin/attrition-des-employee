@@ -8,7 +8,7 @@ import os
 st.set_page_config(layout="wide")
 
 st.sidebar.image('images/sidebar.png')
-data = pd.read_excel(os.getcwd() + os.sep +'data/ml.xlsx')
+data = pd.read_excel( os.path.join(os.getcwd(), 'data', 'ml.xlsx'))
 data.colums=data.columns.str.strip()
 data['DistanceFromHome'] = data['DistanceFromHome'].fillna(np.median(data['DistanceFromHome'].dropna()))
 Education_codes = {1: 'inférieur au collège', 2: 'collège', 3: 'licence', 4: 'master', 5: 'docteur'}
