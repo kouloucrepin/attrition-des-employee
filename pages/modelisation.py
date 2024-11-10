@@ -18,7 +18,7 @@ import os
 import plotly.figure_factory as ff
 from sklearn.pipeline import Pipeline
 st.sidebar.image('images/sidebar.png')
-
+st.set_page_config(layout="wide")
 data = pd.read_excel('data/ml.xlsx')
 categorial_var = [
     'Education','EnvironmentSatisfaction',
