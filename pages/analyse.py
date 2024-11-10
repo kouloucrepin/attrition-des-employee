@@ -4,7 +4,7 @@ import numpy as np
 from streamlit_extras.metric_cards import style_metric_cards
 from functions.mod1 import *
 import plotly.subplots as sp
-
+st.set_page_config(layout="wide")
 
 st.sidebar.image('images/sidebar.png')
 data = pd.read_excel('data/ml.xlsx')
