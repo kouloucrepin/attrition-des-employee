@@ -8,6 +8,7 @@ import joblib
 
 
 
+st.set_page_config(layout="wide")
 st.sidebar.image('images/sidebar.png')
 st.markdown("<h1 style='text-align: left;color:white;'>"  + "💕👌Prédiction de l'Attrition : Anticiper les Départs pour Optimiser la Rétention des Employés" +" </h1>",unsafe_allow_html=True)
 
