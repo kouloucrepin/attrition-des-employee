@@ -1,7 +1,9 @@
 import streamlit as st
 import joblib
 import pandas as pd
-from functions.mod1 import vars_
+
+vars_ = ['Education', 'EnvironmentSatisfaction', 'Implication_dans_emploi', 'JobLevel', 'Satisfaction_travail', 'Évaluation_performance', 'Satisfaction_relationnelle', 'StockOptionLevel', 'WorkLifeBalance', 'Voyage_affaires', 'Department', 'EducationField', 'Genre', 'JobRole', 'État_civil', 'Heures_supplémentaires', 'Age', 'DailyRate', 'DistanceFromHome', 'HourlyRate', 'Revenu_mensuel', 'MonthlyRate', 'NumCompaniesWorked', 'PercentSalaryHike', 'TotalWorkingYears', 'TrainingTimesLastYear', 'YearsAtCompany', 'YearsInCurrentRole', 'YearsSinceLastPromotion', 'YearsWithCurrManager']
+
 
 st.sidebar.image('images/sidebar.png')
 
