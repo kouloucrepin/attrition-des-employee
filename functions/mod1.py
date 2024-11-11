@@ -88,3 +88,7 @@ def plot_histogram_with_density(df, variable):
 
 
 example = pd.DataFrame({'Education': {0: 1}, 'EnvironmentSatisfaction': {0: 1}, 'Implication_dans_emploi': {0: 1}, 'JobLevel': {0: 1}, 'Satisfaction_travail': {0: 1}, 'Évaluation_performance': {0: 1}, 'Satisfaction_relationnelle': {0: 1}, 'StockOptionLevel': {0: 0}, 'WorkLifeBalance': {0: 0}, 'Voyage_affaires': {0: 'Travel_Rarely'}, 'Department': {0: 'Sales'}, 'EducationField': {0: 'Life Sciences'}, 'Genre': {0: 'Female'}, 'JobRole': {0: 'Sales Executive'}, 'État_civil': {0: 'Single'}, 'Heures_supplémentaires': {0: 'Yes'}, 'Age': {0: 0}, 'DailyRate': {0: 0}, 'DistanceFromHome': {0: 0.0}, 'HourlyRate': {0: 0}, 'Revenu_mensuel': {0: 0}, 'MonthlyRate': {0: 0}, 'NumCompaniesWorked': {0: 0}, 'PercentSalaryHike': {0: 0.0}, 'TotalWorkingYears': {0: 0}, 'TrainingTimesLastYear': {0: 0.0}, 'YearsAtCompany': {0: 0}, 'YearsInCurrentRole': {0: 0}, 'YearsSinceLastPromotion': {0: 0}, 'YearsWithCurrManager': {0: 0}})
+
+
+
+vars_ = ['Education', 'EnvironmentSatisfaction', 'Implication_dans_emploi', 'JobLevel', 'Satisfaction_travail', 'Évaluation_performance', 'Satisfaction_relationnelle', 'StockOptionLevel', 'WorkLifeBalance', 'Voyage_affaires', 'Department', 'EducationField', 'Genre', 'JobRole', 'État_civil', 'Heures_supplémentaires', 'Age', 'DailyRate', 'DistanceFromHome', 'HourlyRate', 'Revenu_mensuel', 'MonthlyRate', 'NumCompaniesWorked', 'PercentSalaryHike', 'TotalWorkingYears', 'TrainingTimesLastYear', 'YearsAtCompany', 'YearsInCurrentRole', 'YearsSinceLastPromotion', 'YearsWithCurrManager']
